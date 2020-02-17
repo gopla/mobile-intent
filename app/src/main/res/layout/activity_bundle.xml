@@ -86,6 +86,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/btn_submit_bundle"
         android:text="@string/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

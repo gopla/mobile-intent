@@ -21,6 +21,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void handleExit(View view) {
         finish();
-        startActivity(new Intent(this, MainActivity.class));
+    }
+
+    public void handleImplicitIntent(View view) {
+        startActivity(new Intent(this, ImplicitIntentActivity.class));
+    }
+
+    public void handleBundle(View view) {
+        startActivity(new Intent(this, BundleActivity.class));
+    }
+
+    public void handleParcelable(View view) {
+        startActivity(new Intent(this, ParcelableActivity.class));
     }
 }

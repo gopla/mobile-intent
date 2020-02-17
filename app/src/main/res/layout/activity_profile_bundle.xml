@@ -34,7 +34,7 @@
             android:layout_weight="1"
             />
         <TextView
-            android:id="@+id/text_username"
+            android:id="@+id/text_username1"
             android:textSize="20sp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
             android:layout_weight="1"
             />
         <TextView
-            android:id="@+id/text_name"
+            android:id="@+id/text_name1"
             android:textSize="20sp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
             android:layout_weight="1"
             />
         <TextView
-            android:id="@+id/text_age"
+            android:id="@+id/text_age1"
             android:textSize="20sp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
